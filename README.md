@@ -19,6 +19,7 @@
 
 内核无锁第四层级 — **免锁** - ring buffer就是一种，在一读一写的条件下，可以做到绝对无锁。
 ![环形缓冲区实现原理图][2]
+
 FIFO的内核实现用的是Ring buffer?
 
   [1]: http://www.ibm.com/developerworks/cn/linux/l-cn-lockfree/image001.jpg "加锁层级图"
